@@ -111,6 +111,19 @@ footer {
   margin: 1rem auto;
   box-shadow: 0 0 10px #fff;
 }
+.facts {
+  display: flex;
+  align-items: center;
+}
+.fun-fact {
+  color: var(--secondary-color);
+}
+.jupiter {
+  justify-content: start;
+}
+.venus {
+  justify-content: end;
+}
 .contact {
   color: var(--secondary-color);
 }
@@ -141,6 +154,9 @@ footer {
   }
   button {
     font-size: 3rem;
+  }
+  h2 {
+    font-size: 5rem;
   }
 }
 @media (max-width: 300px) {
