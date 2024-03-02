@@ -150,7 +150,7 @@ footer {
     font-size: 4rem;
   }
   .nav-link {
-    font-size: 3rem;
+    font-size: 2.3rem;
   }
   .navbar-brand {
     font-size: 3.1rem;
@@ -160,6 +160,22 @@ footer {
   }
   h2 {
     font-size: 5rem;
+  }
+  .card {
+    margin-top: 10rem;
+    width: auto;
+  }
+  .btn-card {
+    font-size: 3rem;
+  }
+  .card-title {
+    font-size: 4rem;
+  }
+  .starting {
+    margin-bottom: 10rem;
+  }
+  #land {
+    font-size: 3rem;
   }
 }
 @media (max-width: 300px) {
