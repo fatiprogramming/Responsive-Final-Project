@@ -44,7 +44,7 @@ option2.addEventListener('click', changeText);
 option3.addEventListener('click', changeText);
 restart.addEventListener('click', function () {
   restart.style.display = 'none';
-  title.innerHTML = 'You landed';
+  title.innerHTML = 'You landed!';
   text.innerHTML = ` It seems you have discovered a new planet. You see a shadow on
               each of your sides. <br /><strong>What should you do?</strong>`;
   options.style.display = 'block';
