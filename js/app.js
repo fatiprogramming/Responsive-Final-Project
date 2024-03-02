@@ -9,7 +9,7 @@ const restart = document.querySelector('.restart');
 function changeText(event) {
   if (event.target.value === 'option1') {
     title.innerHTML = 'Amazing!';
-    text.innerHTML = `<em>Congrats!</em> You found a rare treasure. Maybe you can go back to earth and make history`;
+    text.innerHTML = `<em>Congrats!</em> You found a rare treasure. Maybe you can go back to Earth and make history`;
     options.style.display = 'none';
     restart.style.display = 'block';
   }
