@@ -47,6 +47,11 @@ footer {
 }
 .card {
   width: 18rem;
+  border-radius: 5%;
+  padding: 0.5rem;
+}
+.card-img-top {
+  border-radius: 5%;
 }
 .btn-card {
   background-color: var(--primary-color);
@@ -176,6 +181,10 @@ footer {
   }
   #land {
     font-size: 3rem;
+  }
+  .about-big {
+    margin-top: 7% !important;
+    margin-bottom: 7% !important;
   }
 }
 @media (max-width: 300px) {
