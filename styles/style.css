@@ -206,6 +206,12 @@ footer {
     display: none;
   }
 }
+@media (min-width: 575px), (max-width: 767px) {
+  .venus-row {
+    display: flex;
+    justify-content: end;
+  }
+}
 @media (min-width: 375px), (max-width: 435px) {
   .option-1,
   .option-2,
