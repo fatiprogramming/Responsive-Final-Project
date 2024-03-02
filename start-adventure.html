@@ -21,6 +21,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/style.css" />
+
     <meta name="description" content="Start your adventure!" />
     <title>Start your adventure</title>
   </head>
@@ -41,17 +42,14 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div
-            class="collapse navbar-collapse d-flex justify-content-end"
-            id="navbarNav"
-          >
-            <ul class="navbar-nav">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
               <li class="nav-item">
                 <a
                   class="nav-link active"
                   aria-current="page"
                   href="./index.html"
-                  >Home</a
+                  >Welcome to space</a
                 >
               </li>
               <li class="nav-item">
@@ -66,9 +64,63 @@
           </div>
         </div>
       </nav>
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <img
+              class="astronaut img-fluid"
+              src="./images/astronaut-monochromatic.png"
+              alt="astronaut"
+            />
+          </div>
+          <div class="col-6"></div>
+          <div class="col-3">
+            <img
+              class="planet img-fluid"
+              src="./images/planet.png"
+              alt="planet"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h1 class="title">You landed!</h1>
+          <div class="adventure">
+            <p class="text">
+              It seems you have discovered a new planet. You see a shadow on
+              each of your sides. <br /><strong>What should you do?</strong>
+            </p>
+          </div>
+          <div class="options">
+            <div class="row">
+              <div class="col">
+                <button class="option-1" value="option1">Check left</button>
+              </div>
+              <div class="col">
+                <button class="option-2" value="option2">Check right</button>
+              </div>
+              <div class="col">
+                <button class="option-3" value="option3">Stay here</button>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <button class="restart">Restart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10">
+          <footer><p>This page was made by Fátima Blanco</p></footer>
+        </div>
+        <div class="col-1"></div>
+      </div>
     </div>
-     <footer>
-      This page was made by Fátima Blanco
-    </footer>
+
+    <script src="./js/app.js"></script>
   </body>
 </html>
