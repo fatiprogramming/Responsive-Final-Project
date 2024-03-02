@@ -30,6 +30,7 @@ footer {
     34vw -38vh 1px 0px #fff, -17vw 45vh 3px 1px #fff, 22vw -36vh 3px 2px #fff,
     -42vw 1vh 1px 0px #fff;
   animation: zoom 10s alternate infinite;
+  z-index: -1;
 }
 
 @keyframes zoom {
@@ -126,6 +127,7 @@ footer {
 .jupiter {
   justify-content: start;
 }
+
 .venus {
   justify-content: end;
 }
