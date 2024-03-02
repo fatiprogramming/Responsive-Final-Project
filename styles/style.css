@@ -45,6 +45,9 @@ footer {
   border-radius: 1rem;
   padding: 1rem;
 }
+.card {
+  width: 18rem;
+}
 .btn-card {
   background-color: var(--primary-color);
   color: var(--secondary-color);
@@ -138,5 +141,11 @@ footer {
   }
   button {
     font-size: 3rem;
+  }
+}
+@media (max-width: 300px) {
+  .card {
+    width: 12rem;
+    text-align: center;
   }
 }
