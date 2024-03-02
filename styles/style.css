@@ -101,7 +101,7 @@ footer {
 .restart {
   display: none;
   margin: 0 auto;
-  box-shadow: 0 0 10px #fff;
+  box-shadow: 0 0 1rem #fff;
 }
 .option-1,
 .option-2,
@@ -109,7 +109,7 @@ footer {
   display: flex;
   justify-content: space-between;
   margin: 1rem auto;
-  box-shadow: 0 0 10px #fff;
+  box-shadow: 0 0 1rem #fff;
 }
 .facts {
   display: flex;
