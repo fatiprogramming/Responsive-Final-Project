@@ -212,7 +212,7 @@ footer {
     justify-content: end;
   }
 }
-@media (min-width: 375px), (max-width: 435px) {
+@media (max-width: 435px) {
   .option-1,
   .option-2,
   .option-3 {
