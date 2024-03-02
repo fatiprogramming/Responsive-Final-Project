@@ -124,6 +124,9 @@ footer {
 .venus {
   justify-content: end;
 }
+.venus-responsive {
+  display: none;
+}
 .contact {
   color: var(--secondary-color);
 }
@@ -163,5 +166,16 @@ footer {
   .card {
     width: 12rem;
     text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .venus-responsive {
+    display: flex;
+  }
+  .venus {
+    display: none;
+  }
+  .for-big-screens {
+    display: none;
   }
 }
