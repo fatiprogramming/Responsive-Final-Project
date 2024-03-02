@@ -188,6 +188,10 @@ footer {
     margin-top: 7% !important;
     margin-bottom: 7% !important;
   }
+  .fun-facts-title {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
 }
 @media (max-width: 300px) {
   .card {
