@@ -30,7 +30,6 @@ footer {
     34vw -38vh 1px 0px #fff, -17vw 45vh 3px 1px #fff, 22vw -36vh 3px 2px #fff,
     -42vw 1vh 1px 0px #fff;
   animation: zoom 10s alternate infinite;
-  z-index: -1;
 }
 
 @keyframes zoom {
@@ -76,7 +75,7 @@ footer {
   text-decoration: none;
   background-color: #fff;
   border: 1px solid #000;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .astronaut {
@@ -116,6 +115,7 @@ footer {
   justify-content: space-between;
   margin: 1rem auto;
   box-shadow: 0 0 1rem #fff;
+  min-height: 3.3rem;
 }
 .facts {
   display: flex;
@@ -123,6 +123,10 @@ footer {
 }
 .fun-fact {
   color: var(--secondary-color);
+}
+.fun-facts-title {
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 .jupiter {
   justify-content: start;
@@ -142,55 +146,13 @@ footer {
   color: var(--primary-color);
   background-color: var(--secondary-color);
 }
-@media (min-width: 1500px) {
+@media (min-width: 1280px) {
   body {
     margin-left: 10%;
     margin-right: 10%;
   }
   .container {
     max-width: none !important;
-  }
-  h1 {
-    font-size: 6rem;
-  }
-  p {
-    font-size: 4rem;
-  }
-  .nav-link {
-    font-size: 2.3rem;
-  }
-  .navbar-brand {
-    font-size: 3.1rem;
-  }
-  button {
-    font-size: 3rem;
-  }
-  h2 {
-    font-size: 5rem;
-  }
-  .card {
-    margin-top: 10rem;
-    width: auto;
-  }
-  .btn-card {
-    font-size: 3rem;
-  }
-  .card-title {
-    font-size: 4rem;
-  }
-  .starting {
-    margin-bottom: 10rem;
-  }
-  #land {
-    font-size: 3rem;
-  }
-  .about-big {
-    margin-top: 7% !important;
-    margin-bottom: 7% !important;
-  }
-  .fun-facts-title {
-    margin-top: 10%;
-    margin-bottom: 10%;
   }
 }
 @media (max-width: 300px) {
