@@ -45,6 +45,10 @@ footer {
   border-radius: 1rem;
   padding: 1rem;
 }
+.btn-card {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
 .everything {
   margin: 40px 0;
 }
